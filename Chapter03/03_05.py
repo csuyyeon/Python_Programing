@@ -1,0 +1,6 @@
+text=input("실수 형태 문자열 : ")
+fnum=float(text)
+inum=int(fnum)
+tstr=str(inum)
+print(text,type(text),fnum,type(fnum))
+print(inum,type(inum),tstr,type(tstr))
